@@ -3,7 +3,7 @@ body {
     background-color: #111310;
     background-size: contain;
     color: #ffffe2;
-    font-family: 'Biryani', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 24px;
     overflow-x: hidden;
     margin: 0;
@@ -117,6 +117,9 @@ footer {
     height: 47px;
 }
 
+li {
+    padding-top: 10px;
+}
 hr {
     background: url(img/separator.png);
     width: 777px;
