@@ -3,7 +3,7 @@ body {
     background-color: #111310;
     background-size: contain;
     color: #ffffe2;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     overflow-x: hidden;
     margin: 0;
@@ -40,7 +40,7 @@ p {
 }
 
 .shad {
-    text-shadow: 4px 4px 12px #1c1c1c;
+    text-shadow: 0px 8px 12px #0a0a0a;
 }
 
 .screen {
@@ -636,6 +636,13 @@ hr {
 
 .nexus-mods {
     background-image: url(img/nexus-mods.png);
+}
+
+
+.mongo-logo {
+    background-image: url(img/mongodb-logo-png-3.png);
+    width: 160px;
+    height: 190px;
 }
 
 .go-logo {
