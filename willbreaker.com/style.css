@@ -1,10 +1,10 @@
 body {
-    background: url(img/bg224.jpg) top center no-repeat;
-    background-color: #352c27;
+    background: url(img/bg225.jpg) top center no-repeat;
+    background-color: #111310;
     background-size: contain;
-    color: #000000;
-    font-family: 'Mukta', sans-serif;
-    font-size: 16px;
+    color: #ffffe2;
+    font-family: 'Biryani', sans-serif;
+    font-size: 24px;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -39,6 +39,10 @@ p {
     margin-bottom: 2em;
 }
 
+.shad {
+    text-shadow: 4px 4px 12px #1c1c1c;
+}
+
 .screen {
     width: 320px;
     height: 180px;
@@ -54,9 +58,7 @@ p {
 
 .embed {
     border: 0;
-    margin: 10px auto;
     display: block;
-    text-align: center;
 }
 
 footer {
@@ -117,12 +119,12 @@ footer {
 
 hr {
     background: url(img/separator.png);
-    width: 900px;
-    height: 25px;
+    width: 777px;
+    height: 2px;
     margin-top: 64px;
     margin-bottom: 16px;
     position: relative;
-    left: -115px;
+    left: -55px;
     display: block;
     border: 0;
 }
@@ -580,8 +582,8 @@ hr {
 
 .community-button,
 .credits-button {
-    width: 300px;
-    height: 85px;
+    width: 160px;
+    height: 160px;
     display: inline-block;
     overflow: hidden;
 }
@@ -597,7 +599,6 @@ hr {
     position: relative;
     display: inline-block;
     background: left top no-repeat;
-    padding: 0 5px 2em 5px;
     margin: 10px 15px 0.5em 15px;
     text-align: center;
     color: white;
@@ -634,16 +635,16 @@ hr {
     background-image: url(img/nexus-mods.png);
 }
 
-.fmod-logo {
-    background-image: url(img/fmod.png);
-    width: 190px;
-    height: 53px;
+.go-logo {
+    background-image: url(img/gologo.png);
+    width: 160px;
+    height: 160px;
 }
 
-.unity-logo {
-    background-image: url(img/unity.png);
-    width: 190px;
-    height: 72px;
+.pixi-logo {
+    background-image: url(img/pixijslogo.png);
+    width: 160px;
+    height: 160px;
 }
 
 #technology,
