@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "sudo http-server -p 443  -S --cert certificate.crt --key private.key -s &",
+    "posttest": "pkill -f http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
